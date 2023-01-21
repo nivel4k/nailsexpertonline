@@ -7,7 +7,7 @@ const $days = document.getElementById('days'),
     $seconds2 = document.getElementById('seconds2'),
     $barPro = document.getElementById('barProg');
 // $finalMessage = document.querySelector('.final-sms')
-const promotion = new Date().getTime() + (1000 * 60 * 60 * 8.5);
+const promotion = new Date().getTime() + (1000 * 60 * 60 * 9.5);
 let interval = setInterval(function() {
     //Obtener fecha actual y milisegundos
     const now = new Date().getTime();
